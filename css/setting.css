@@ -1,0 +1,84 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #add8e6;
+    color: #333;
+}
+
+#back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.main {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+details {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+summary {
+    padding: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+}
+
+.setting-form {
+    padding: 20px;
+}
+
+.setting-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.setting-form input {
+    width: 98%;
+    padding-right: 12px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.setting-form button {
+    width: 100%;
+    padding: 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.setting-form button:hover {
+    background-color: #0056b3;
+}
+
+details p {
+    padding: 20px;
+}
